@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;600;700&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+}
+.flex-box
+{
+    display: flex;
+    align-items: center;
+}
+.container
+{
+    font-family: 'Asap', sans-serif;
+min-width: 800px;
+height:100vh;
+margin:0 auto;
+background-color: rgb(2, 2, 117);
+flex-direction: column;
+}
+.card
+{
+    margin-top:60px;
+    background-color: #fff;
+    height:300px;
+    width:600px;
+    border-radius: 20px;
+    flex-direction: column;
+    gap:20px;
+}
+.heading
+{
+    display:block;
+    margin: 15px;
+}
+.select-div
+{
+    display:flex;
+    gap: 50px;
+    margin-bottom: 15px;
+}
+.select-box
+{
+    font-size: inherit;
+    padding:10px 20px;
+    display:block;
+    border-radius: 5px;
+}
+.label{
+    display:block;
+    padding-bottom:5px;
+}
+.select-div div
+{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+.btn
+{
+    border-radius: 15px;
+    padding:13px 20px;
+    cursor: pointer;
+    font-family: 'Asap', sans-serif;
+}
+.btn:hover{
+    color:#fff;
+    background-color: green;
+}
+.leave
+{
+    color:red;
+    font-size:15px;
+    margin-bottom: 10px;
+}
+/* Error message  */
+.err-msg
+{
+    width:400px;
+    height:50px;
+    margin:20px;
+    font-size: 25px;
+    border:1px solid black;
+    border-radius: 20px;
+    color:red;
+    background-color: whitesmoke;
+    justify-content: center;
+
+}
+.result
+{
+    background-color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 20px;
+}
+.travel-days
+{
+    margin:20px;
+}
+.travel-date
+{
+    border:1px solid black;
+    width:400px;
+    border-radius: 20px;
+}
+.route , .travel-date
+{
+    height:30px;
+    background-color: white;
+    margin:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.route-head{
+    color:green;
+    margin-top: 15px;
+    text-align: center;
+}
+.hidden
+{
+    display:none;
+}
+.fa-angle-double-right
+{
+    height:20px;
+    width:20px;
+}

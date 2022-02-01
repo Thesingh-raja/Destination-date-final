@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Destination Date</title>
+      <script src="https://kit.fontawesome.com/ec3577f57a.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="container flex-box">
+         <div class="card flex-box">
+            <h1 class="heading">Destination Date</h1>
+            <div class="select-div">
+               <div>
+                  <span class="label">From</span>
+                  <select class="select-box from">
+                     <option value=" ">Select City</option>
+                     <option value="Tirunelveli">Tirunelveli</option>
+                     <option value="Madurai">Madurai</option>
+                     <option value="Trichy">Trichy</option>
+                     <option value="Coimbatore">Coimbatore</option>
+                     <option value="Salem">Salem</option>
+                     <option value="Chennai">Chennai</option>
+                     <option value="Bangalore">Bangalore</option>
+                     <option value="Mumbai">Mumbai</option>
+                  </select>
+               </div>
+               <div>
+                  <span class="label">To</span>
+                  <select class="select-box to">
+                     <option value=" ">Select City</option>
+                     <option value="Tirunelveli">Tirunelveli</option>
+                     <option value="Madurai">Madurai</option>
+                     <option value="Trichy">Trichy</option>
+                     <option value="Coimbatore">Coimbatore</option>
+                     <option value="Salem">Salem</option>
+                     <option value="Chennai">Chennai</option>
+                     <option value="Bangalore">Bangalore</option>
+                     <option value="Mumbai">Mumbai</option>
+                  </select>
+               </div>
+            </div>
+            <button class="btn">Calculate</button>
+            <div class="leave">* Service will not be available in Saturday and Sunday.</div>
+         </div>
+         <div class="err-msg flex-box hidden">
+            <h4>Route Not Found</h4>
+         </div>
+         <div class="result hidden">
+            <div class="travel-days">Your package will reach the destination <span class="tot-days"></span></div>
+            <div class="travel-date"><b>Start Date:</b>&nbsp;  <span class="start-date">dd/mm/yyyy  </span> &emsp;  <i class="fas fa-shipping-fast"></i> &emsp; <b> Arrive On:</b>&nbsp; <span class="end-date">dd/mm/yyyy</span></div>
+            <div class="route-head">
+               <h4><i class="far fa-map"></i> &nbsp;Route Map</h4>
+            </div>
+            <div class="route">        </div>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>
